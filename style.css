@@ -1,0 +1,285 @@
+/*Navbar section*/
+/*adding custom css for changing navbar background color*/
+.penguin-navbar{
+
+    background-color: #FFFBF0;
+   
+}
+/*adding custom css for changing brand logo size*/
+.penguin-brand-logo img{
+ 
+    width: 291.11px;
+    height: 39.27px;
+
+}
+ /*change toggler icon color to dark*/ 
+.penguin-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(62, 62, 62, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+/*turned off default href color*/
+a:link, a:visited , a:hover , a:active {
+    color:#3C3C3C;
+    font-size:16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .penguin-navbar-nav > li{
+
+    margin-left:30px;
+ }
+/*navbar section ends here*/
+
+ /*banner section css*/
+
+ .banner{
+
+    background-color: #FFFBF0;
+    font-family: 'Bebas Neue', cursive;
+ }
+
+ .banner p{
+    font-size:16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color:#3E3E3E;
+
+ }
+
+ .banner h1{
+    font-size:5em;
+    font-weight: 800;
+ }
+
+ .dark{
+   color:#3E3E3E;
+ }
+ 
+ .light{
+
+    color:#FABE4C;
+ }
+
+ .imgs img{
+
+    width: 100%;
+ }
+
+ /*buy now button design*/
+ .buy-now{
+
+    background-image : linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    width: 135px;
+    height: 50px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+
+
+ }
+
+/*WOMAN & MAN Jacket Section*/
+ .section-title{
+
+   font-family: 'Bebas Neue', cursive;
+      font-size:48px;
+      color: #363958;
+      padding-top: 25px;
+      padding-bottom: 25px;
+
+
+ }
+
+ .penguin-card-top{
+
+   width: 95%;
+   margin: 0 auto;
+   background-color: #F1F1F1;
+   border-radius: 10px;
+
+ }
+
+ .penguin-card, .penguin-newsletter h3{
+
+   font-family: 'Roboto',sans-serif;
+   color:#363958;
+   font-size: 24px;
+   font-weight: 800;
+
+ }
+
+ .penguin-card p{
+
+    font-size: 14px;
+    font-weight: 400;
+    color:dimgray;
+ }
+
+ .penguin-card, .penguin-card-footer, .penguin-newsletter{
+
+   background-color: #FFFFFF;
+   border-radius: 20px;
+   border-style: none;
+ }
+
+ .penguin-card-price{
+
+   font-family: 'Robot',sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+   color: #FABE4C;
+
+
+ }
+/*service section*/
+ .services h4{
+
+   font-family: 'Roboto',sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   color:#3E3E3E;
+ }
+
+ .services p{
+
+   font-family: 'Roboto',sans-serif;
+   font-size: 14px;
+   color:#3E3E3E;
+ }
+
+ 
+
+ .service-img{
+
+   padding-top: 30px;
+   padding-bottom: 30px;
+   
+
+ }
+
+ .services img,.service-img img{
+
+   width: 80%;
+ }
+/*newsletter & footer part*/
+ .penguin-newsletter p , footer p{
+
+    color:dimgray;
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+ }
+
+
+ @media (max-width: 1200px){
+
+   .penguin-card h3{
+      font-size: 18px;
+      font-weight: 600;
+   }
+
+ }
+
+ @media (max-width: 991px){
+
+   .adv h1{
+      font-size: 48px;
+  }
+
+    .buy-now{
+
+      width: 130px;
+      height: 40px;
+      font-size: 12px;
+      margin-left:5px;
+      text-align: center;
+
+    }
+    .penguin-card h3{
+       font-size: 16px;
+       font-weight: 600;
+    }
+
+    .penguin-card p{
+      font-size: 12px;
+      font-weight: 400;
+      color:dimgray;
+   }
+
+   .penguin-card-price {
+
+      font-size: 24px;
+
+   }
+
+   .services h4{
+
+      font-size : 14px;
+   }
+
+   .services p{
+
+      font-size: 12px;
+   }
+
+   .services img{
+
+      width: 130%;
+
+   }
+
+    .services { order: 1;  align-items: center;}
+    .service-img { order: 2; }
+   
+
+ }
+
+ @media (max-width: 767.98px) { 
+
+   .adv h1{
+       font-size: 48px;
+   }
+
+   .services img{
+       width: 20%;
+   }
+    .service-img { order: 1; }
+    .services, .services h4, .services p{   
+      order: 2; 
+      justify-content: center;
+      text-align: center;
+      font-size: 18px;
+   
+   }
+  
+  }
+
+  @media (max-width: 575px){
+
+      #subscribe{
+
+         width: 95%;
+      }
+
+  }
+
+  @media (max-width: 387px) { 
+
+   .penguin-brand-logo{
+         width: 70%;
+   }
+   .penguin-brand-logo img{
+         width:99.99%;
+   }
+
+
+  }
+
+
+  
+
+
+
